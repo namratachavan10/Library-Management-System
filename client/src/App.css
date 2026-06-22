@@ -1,0 +1,24 @@
+.card {
+  width: 260px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 25px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card:nth-child(1){
+  background: linear-gradient(135deg,#3b82f6,#2563eb);
+}
+
+.card:nth-child(2){
+  background: linear-gradient(135deg,#8b5cf6,#7c3aed);
+}
+
+.card:nth-child(3){
+  background: linear-gradient(135deg,#10b981,#059669);
+}
+
+body{
+  background:#f1f5f9;
+}
